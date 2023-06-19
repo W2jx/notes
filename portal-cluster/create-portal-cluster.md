@@ -71,6 +71,8 @@ Sets currently installed bundle as a 2 node cluster. Configure more nodes with: 
 
 ## 1.start elasticsearch
 
+Use `jps` to find the running elasticsearch, use `kill -9 PID` to stop it, and then start a new elasticsearch using the following method.
+
 >cd bundles/elasticsearch-7.17.10/bin && ./elasticsearch
 
 ## 2.start portal
